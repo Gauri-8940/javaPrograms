@@ -19,6 +19,7 @@ public class convertStringToLowerCaseApp {
 			}
 			System.out.print(ch);
 		}
+		
 
 	}
 
