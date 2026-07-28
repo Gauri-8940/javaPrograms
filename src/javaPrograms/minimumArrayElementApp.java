@@ -2,11 +2,11 @@ package javaPrograms;
 
 import java.util.Scanner;
 
-public class maximumArrayElementApp {
+public class minimumArrayElementApp {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter the size of array");
 		int size=sc.nextInt();
@@ -19,15 +19,17 @@ public class maximumArrayElementApp {
 			a[i]=sc.nextInt();
 					
 		}
-		int max=a[0];
+		
+		int min=a[0];
 		
 		for(int i=0;i<a.length;i++) {
-			if(a[i]>max) {
-				a[i]=max;
+			
+			if(a[i]<min) {
+				min=a[i];
 			}
 		}
-		System.out.println("maximum element is "+max);
-				
+		
+		System.out.println("minimum element is "+min);
 
 	}
 
