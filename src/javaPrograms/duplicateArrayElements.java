@@ -19,8 +19,7 @@ public class duplicateArrayElements {
 						
 			}
 			
-			int i,j;
-			
+			int i,j;			
 			for(i=0;i<a.length;i++) {
 				for(j=0;j<i;j++) {
 					if(a[i]==a[j]) {

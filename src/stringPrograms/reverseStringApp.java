@@ -13,7 +13,6 @@ public class reverseStringApp {
 		   
 		   char ch[] = new char[s.length()];
 
-		// Copy characters 
 		for (int i = 0; i < s.length(); i++) {
 		    ch[i] = s.charAt(i);
 		}
