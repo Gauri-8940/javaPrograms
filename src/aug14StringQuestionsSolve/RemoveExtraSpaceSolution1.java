@@ -2,7 +2,7 @@ package aug14StringQuestionsSolve;
 
 import java.util.Scanner;
 
-public class RemoveExtraSpaceApp {
+public class RemoveExtraSpaceSolution1 {
 
 	public static void main(String[] args) {
 		
