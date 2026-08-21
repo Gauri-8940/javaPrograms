@@ -13,12 +13,12 @@ public class palindromeSolution2 {
 
 	        int start = 0;
 	        int end = s.length() - 1;
-	        boolean flag = true;
+	        boolean flag = false;
 
 	        while (start < end) {
 
-	            if (s.charAt(start) != s.charAt(end)) {
-	                flag = false;
+	            if (s.charAt(start) ==s.charAt(end)) {
+	                flag = true;
 	                break;
 	            }
 
