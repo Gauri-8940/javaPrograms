@@ -8,11 +8,16 @@ public class FirstNonRepeatedCharOfStringApp {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter any string");
 		String str=s.nextLine();
-		char ch[]=str.toCharArray();
 		
 		int i,j,count=0;
 		boolean flag=false;
 		char FirstNoRepeted = 0;
+		
+		char ch[]=new char[str.length()];
+		
+		for(i=0;i<str.length();i++) {
+			ch[i]=str.charAt(i);
+		}
 		int len=ch.length;
 		for(i=0;i<len;i++)
 		{
