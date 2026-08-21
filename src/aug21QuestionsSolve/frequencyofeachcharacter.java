@@ -20,9 +20,17 @@ public class frequencyofeachcharacter {
 	        Map<Character, Integer> frequencyMap = new HashMap<>();
 
 	        // Populate the frequency map
-	        for (char c : str.toCharArray()) {
+//	        for (char c : str.toCharArray()) {
 	            // Update the frequency count for each character
-	            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
+//	            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
+	        	
+//	        }
+	        
+	        for (char c : str.toCharArray()) {
+
+	            if (c != ' ') {
+	                frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
+	            }
 	        }
 
 	        // Print the frequency of each character
