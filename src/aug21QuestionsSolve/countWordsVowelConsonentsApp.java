@@ -10,7 +10,12 @@ public class countWordsVowelConsonentsApp {
 		String str=s.nextLine();
 		int v=0,w=1,c=0;
 
-		char ch[]=str.toCharArray();
+		char ch[]=new char[str.length()];
+		
+		for(int i=0;i<str.length();i++) {
+			ch[i]=str.charAt(i);
+		}
+		
 		for(int i=0;i<ch.length-1;i++)
 		{
 			if(ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u'||ch[i]=='A'||ch[i]=='E'||ch[i]=='I'||ch[i]=='O'||ch[i]=='U') {
